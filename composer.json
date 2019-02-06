@@ -1,0 +1,16 @@
+{
+	"name": "son/mvc",
+	"require": {
+		"php": ">=5.3"
+	},
+
+	"autoload": {
+  		"psr-4": {
+   			"SON\\": "vendor/SON/",
+			"App\\": "App/"
+  		}
+ 	},
+	"config": {
+		"bin-dir": "bin"
+	}
+}

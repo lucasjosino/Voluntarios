@@ -1,0 +1,160 @@
+nav {
+	font-weight: 700;
+    font-family: Montserrat;
+    padding-left: 5em;
+    padding-right: 5em;
+    background-color: white !important;
+    webkit-box-shadow: 0px 0.5px 5px 0px rgba(235,235,235,1) !important;
+-moz-box-shadow: 0px 0.5px 5px 0px rgba(235,235,235,1) !important;
+box-shadow: 0px 0.5px 5px 0px rgba(235,235,235,1) !important;
+}
+
+nav ul a {
+    color: #5ca2de !important;
+}
+
+.front-head {
+    line-height: 15vh;
+    font-size: 15vh;
+    margin-top: 35vh;
+}
+
+.front-link h3 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.front-link h3 > a {
+    font-size: 14px;
+    text-transform: unset;
+}
+
+.arrow-logo {
+    transform: rotate(-20deg);
+    position: fixed; /* posição fixa */
+    top: 70vh; /* distância do topo */
+    left: 0; /* distância da esquerda */
+    height: 20vh; /* altura */
+    width: 20vw; /* largura */
+    background-size: 20vw 20vh;
+    stroke-dasharray: 10;
+}
+
+.sword-logo {
+    transform: rotate(20deg);
+    position: fixed; /* posição fixa */
+    top: 30vh; /* distância do topo */
+    left: 80vw; /* distância da esquerda */
+    height: 20vh; /* altura */
+    width: 20vw; /* largura */
+    background-size: 20vw 20vh;
+}
+
+
+.modal-content > h2 {
+    text-align: center;
+}
+
+div .modal-content > .row {
+    margin: 0;
+}
+
+.modal {
+    background-color: initial !important;
+    width: 20vw!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-group {
+    width: 100% !important;
+}
+
+.wizard-card .tab-content {
+    min-height: 0 !important;
+}
+
+.wizard-container {
+    padding-top: 15vh !important;
+}
+
+.image-container:before {
+    background: #ffffff !important;
+    opacity: unset !important; 
+}
+
+nav {
+        z-index: 1;
+	    transition-duration: 1s;
+        font-size: 15px;
+}
+
+.checkbox {
+    text-align: center;
+}
+
+.form-group input[type=file] {
+    opacity: unset !important;
+    position: relative !important;
+}
+
+.btn, .btn-large, .btn-small {
+    background-color: #5ca2de !important;
+}
+
+.input-group {
+    width: 100%;
+}
+
+/* padronizando tamanho do form entre os framework */
+.control-label {
+    font-size: 14px !important;
+}
+
+/* padronizando espaçamento entre os frameworks */
+.row {
+    margin-bottom: 0 !important;
+}
+
+/* padronizando espaçamento entre os frameworks */
+.form-group {
+    margin: 0;
+}
+
+/* reconfigurando font-sizes' para menu se adequar */
+
+nav ul a{
+    font-size: initial !important;
+}
+
+/* configurando botão para padronização de cor no wizard */
+.wizard-card[data-color="red"] .moving-tab {
+    background-color: #5ca2de!important;
+}
+
+#startVoluntario {
+    border-radius: 5px;
+        font-weight: 700;
+    font-family: Montserrat;
+}
+
+#myVideo {
+  transform:scale(1.6);
+	z-index: -555;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.row > input {
+    margin: 15px;
+}
+
+.btn, .btn-large, .btn-small, .btn-flat {
+     height: initial!important;
+
+}

@@ -1,0 +1,174 @@
+1)
+Modelo de Processador Humano.
+Subsistemas: perceptual, motor e cognitivo.
+Componentes: entrada/saída, memória e processamento.
+
+2)
+O dautonismo tem as seguintes implicações no design de sistemas interativos:
+- Cores não devem ser o único indicador de informação, deve-se ter formas alternativas para identificar a mesma informação.
+- Texto e fundo devem ser distintos, baseados em contraste e cor.
+- Diagramas devem ter diferentes níveis de brilho, estilos de linha e codificações de cores.
+- Em condições de pouca luz, a discriminação de cores é mais fraca.
+- Textos e diagramas que dependem apenas de cor são ilegíveis quando impressos em preto e branco.
+
+3)
+Tipos de memória:
+- Sensorial: buffers para tratar estímulos recebidos dos sentidos e é continuamente sobrescrita.
+- De curto prazo (MCP / ou de trabalho): área de rascunho para lembrança temporária, acesso rápido, declínio rápido e limitada.
+- De longo prazo (MLP): armazena informações por períodos prolongados, acesso lento, declínio lento e ilimitada.
+
+4)
+Ao receber um estímulo (entrada), este é captado pela memória sensorial. Se for dada ATENÇÃO a este estímulo, ele passa para a MCP, que é nosso rascunho. Com ENSAIO (fixação do estímulo percebido, exposição repetida), a informação se move da MCP para a MLP, que armazena por período prolongado a informação ou conhecimento (a quantidade retida é proporcional ao tempo de ensaio).
+
+5)
+O fenômeno de chunking é quando o subconsciente tenta crair blocos para otimar o uso da MCP , exemplO: 4214142626 é mais fácil de memorizar como 421-414-26-26. A MCP tem uma capacidade limitada, esse processo faz um uso melhor da memória.
+
+6)
+É o ato de iniciar uma tarefa e completá-la totalmente, obtendo o resultado desta ação. Ele fica na memória de trabalho. Uma interface nunca pode dar o resultado ao usuário antes de completar a tarefa (ex: caixa eletrônico, não liberar o dinheiro antes do cartão ser removido, senão o usuário pode deixar o cartão e a tarefa não é finalizada corretamente).
+
+7)
+É uma das estruturas que o cérebro utiliza para armazenar informação. Rede semântica é um tipo de MLP que registra de forma estruturada fatos, conceitos e habilidades. Ela provê acesso à informação, representa relacionamentos entre blocos de informação e suporta inferência.
+
+8)
+Teoria do Espaço do Problema:
+Você estrutura o problema como se fosse uma sequencia de estados (inicial/intermediarios/final). O espaço do problema compreende todos os ESTADOS do problema, e a RESOLUÇÃO do problema envolve a geração de estados por meio de operadores legais. Heurísticas podem ser empregadas para selecionar estes operadores (análise meio-fim / Comparação de estado inicial e objetivo, criando novos sub-objetivos).
+
+9)***
+Modelos mentais tratam da tradução entre o que o sistema faz e o que o usuário quer, eles ajudam a compreender o que acontece na interação entre o usuário e o sistema, pois identificam dificuldades principais e comparam estilos de interação.
+Um princípio chave do design é projetar as coisas de maneira que as pessoas formem modelos mentais úteis e corretos de como elas funcionam e o que elas fazem.
+
+10)
+Tipos de erro mental:
+- (Lacuna de execução) Deslizes (slips): intenção certa, falha para fazer corretamente, causado por falta de habilidade, desatenção ou mudança de rotina. Corrige-se melhorando o design da interface.
+- (Lacuna de avaliação) Equívocos ou enganos (mistakes): intenção errada, causada por entendimento incorreto. Corrige-se com treinamento, metáforas, redesign, para melhorar o entendimento do sistema.
+
+11)
+Implicações da emoção para o design de interface:
+- Estresse dificulta a resolução de problemas
+- Usuários relaxados são mais tolerantes a deficiências de design
+- Interfaces esteticamente agradáveis e gratificantes aumentam o affect positivo
+
+12)
+Reconhecimento (recupera informação a partir de dicas).
+Relembrar (recupera informação sem nenhuma dica, mais demorado).
+Para diminuir a carga de memória do usuário o designer pode usar as técnicas abaixo para incentivar o RECONHECIMENTO:
+- fornecer indicações visuais que permitem ao usuário reconhecer ações anteriores, em vez de se lembrar delas.
+- estabelecer defaults significativos (conjunto inicial de parâmetros)
+- definir atalhos intuitivos
+- usar metáforas para o layout
+- revelar informações de modo progressivo
+
+13)
+A velocidade (frequência) de processamento É finita, mas designers tendem a assumir processadores rápidos e fazem interfaces cada vez mais complicadas sem considerar aspectos de gargalo do computador que podem gerar atrasos, porém ele deveria planejar explicitamente respostas lentas onde elas forem possíveis, buscar o minimalismo, pois esta afirmação da velocidade infinita é um mito.
+
+14)
+A Lei de Fitts afirma que o tempo necessário para mover-se rapidamente de uma posição inicial até uma posição final é proporcional ao tamanho do objeto de destino. Ou seja, é mais fácil atingir (ou mirar) em alvos que sejam maiores e estejam mais perto você do que alvos que sejam menores ou estejam mais longe. No design (e na forma como as pessoas interagem com interfaces digitais) é a mesma coisa.
+
+Para evitar movimentos muito extensos, os controles devem ser organizados de acordo com sua funcionalidade/relacionamento, ou de forma sequencial refletindo a ordem de uso dos mesmos, ou até mesmo por ordem de frequência de uso.
+
+Facilidade: controles próximos e grandes.
+Difícil: controles distantes e pequenos.
+
+15)
+Jaggies são serrilhados, linhas diagonais que têm descontinuidades devido ao processo de digitalização. São resolvidos com técnicas anti-aliasing, que promovem a suavização das bordas usando sombreamento dos pixels adjascentes na mesma cor da linha. O nosso cérebro entende a imagem borrada como uma linha única e sem serrilhamento. A técnica também é usada em textos.
+
+16)
+Os fatores computacionais que podem influenciar no desempenho de sistemas interativos são:
+Processamento, gargalo de comunicação de rede, gargalo de processamento gráfico, baixa velocidade de download, carregamento de páginas lento.
+- Comunicação, é uma parte importante. Questões como largura de banda e velocidade são decisivas, bem como o retorno para as pessoas de forma que elas saibam o que está acontecendo.
+
+17)
+Abrir, Novo, Salvar, Salvar como, Prévia de impressão , Imprimir , Fechar , Preferências , Sair
+
+Tabela, Figura
+
+Negrito , Itálico , Sublinhado , Formatar fonte, Formatar parágrafo, Formatar tamanho
+
+Recortar ,Copiar, Colar , Deletar , Limpar, Desfazer , Refazer, Zoom
+
+Procurar palavra , Substituir palavra , Contar caracteres, Contar palavras , Checar ortografia
+
+Configuração de página, Numeração de páginas, Margens, Nota de rodapé, Quebra de página, Cabeçalho
+
+A ideia é gerar menus com quantidade de itens proporcionais (balanceados), não deixar menus muito grandes e outros muito pequenos.
+
+18)***
+O modelo de Execução-Avaliação de Norman se concentra na visão que o usuário tem da interface, tem 7 estágios:
+
+          ___  meta <---¬
+execução /               \ avaliação
+         \--> sistema ___/
+
+a) usuário estabelece a meta
+b) formula intenção
+c) especifica ações na interface
+d) executa ações
+e) percebe o estado do sistema
+f) interpreta o estado do sistema
+g) avalia o estado do sistema com respeito à meta
+
+O modelo de Abowd & Beale é uma extensão do modelo de Norman, tem 4 estágios/iterações:
+
+          --->  O (output) ---
+S (core) /                    \ U (task)
+         \---- I (input) <----/
+
+a) articulação: formulação da tarefa pelo usuário é traduzido para o input (U -> I)
+b) execução: input traduzido para o estado do sistema (I -> S)
+c) apresentação: mudança no estado do sistema reflete nos componentes de output (S -> O)
+d) observação: usuário traduz as mudanças de output, interpretando-as (O -> U)
+
+19)
+O uso de metáforas no design de sistemas interativos permite ao usuário se apoiar em indicações visuais bem-entendidas, em vez de memorizar uma sequência de interações esotérica. Exemplo: um sistema de pagamento de contas deve usar uma metáfora de talão e canhoto de cheques para guiar o usuário durante o processo de pagamento. Exemplo 2: a Lixeira do SO, mais fácil assimilar suas funcionalidades com este nome e ícone, do que se fosse chamado puramente de diretório.
+
+20)
+Hoje o paradigma mais dominante é o de interface por voz. Acredito que serão significativos os paradigmas para além do desktop que oferecem ao usuário formatos cada vez mais “simbióticos” de interação, a exemplo da computação vestível, realidade aumentada e realidade virtual.
+
+21)
+Exemplos de aspectos ergonômicos:
+- Uso de cor: vermelho/amarelo/verde para perigo/alerta/confirmação. O azul não deve ser usado para informação crítica.
+- Informação crítica no nível dos olhos
+- Menus organizados para evitar movimentos extensos (Lei de Fitts)
+- Ruídos que afetam o entendimento do som pelo software.
+
+22)
+Esses menus geralmente são associados a um objeto. Menus contextuais são utilizados para apresentar opções em um contexto (como menus pop-up ou radiais ao clicar com o botão direito sobre um arquivo. Naquele contexto - o arquivo selecionado - o menu exibe opções como abrir, copiar, compactar, etc.).
+
+23)
+Caixas de diálogo modais são recomendadas para apresentação de informações críticas (mensagens de erro e advertência), que exigem uma resposta imediata por parte do usuário. Elas travam as outras tarefas até a resposta ser dada.
+
+24)
+Affordance pode ser traduzido como 'reconhecimento', é a qualidade de um objeto que permite ao indivíduo identificar sua funcionalidade sem a necessidade de prévia explciação, o que ocorre intuitivamente ou baseado em experiências anteriores (ex: ícones de programa, os quais geralmetne são escolhidos dentro do universo do nosso cotidiano, de acordo com a função a que se destinam originalmente). Quanto maior for a 'affordance' de um objeto, melhor será a identificação de seu uso.
+
+25) Uma característica essencial do bom design de sistemas interativos é colocar as pessoas em primeiro lugar, ou seja, o design deve ser centrado no humano. A adoção de uma abordagem centrada no usuário traz a garantia de sistemas com boa usabilidade, e preocupa-se também com questões de acessbilidade e aceitabilidade pelos usuários nos contextos em que esses sistemas serão usados. Fases:
+- 1 Entendimento: o que o sistema deve fazer, como ele tem de ser e como tem de se encaixar em outras coisas. Fazer análise PACT.
+- 2 Design: produzir sistemas e produtos que sejam usáveis, acessíveis e social e economicamente aceitáveis.
+- 3 Antecipação: encontrar a mídia apropriada (protítipo) para demonstrar as ideias de design, pois ele tem que ser visualizado para ser avaliado.
+- 4 Avaliação: uma verificação do design para ter certeza de que algo está completo e correto, escolher entre alternativas, participação e envolvimento do usuário ou especialistas.
+- 5 Implementação: todas as coisas têm de ser concebidas e o software tem de ser escrito e testado quanto à sua corretude.
+
+26)
+Usabilidade (requisito não funcional) é a extensão pela qual um produto pode ser utilizado por usuários específicos para atingir metas específicas com efetividade, eficiência e satisfação em um cenário de uso específico.
+
+Efetividade refere-se à facilidade com que o sistema permite ao usuário atingir uma meta específica.
+Eficiência refere-se à quantidade de tempo/esforço necessária para que o usuário atinja a meta.
+Satisfação refere-se a avaliações subjetivas (desejavelmente positivas) do sistema pelos usuários.
+
+
+27)
+Definição de acessibilidade: condição para utilização, com segurança e autonomia, total ou assistida, dos espaços, mobiliários e equipamentos urbanos, das edificações, dos serviços de transporte e dos DISPOSITIVOS, SISTEMAS E MEIOS DE COMUNICAÇÃO E INFORMAÇÃO, por pessoa portadora de deficiência ou com mobilidade reduzida.
+
+Diz respeito à remoção de barreiras físicas (ex: localização inadequada de equipamento ou dispositivos de E/S inadequados a certos usuários), conceituais (ex: usuários comuns não conseguem entender comandos de programação), econômicas (ex: usuários não ter meios de comprar uma tecnologia que seja essencial), e culturais (ex: suposições inadequadas sobre como as pessoas trabalham e organizam a vida).
+
+28)
+Os 7 princípios do design universal:
+1. Equiparação nas possibilidades de uso
+2. Flexibilidade no uso
+3. Baixo esforço físico
+4. Tolerância ao erro
+5. Uso simples e intuitivo
+6. Informação perceptível
+7. Tamanho e espaço para aproximação e uso
+
+29)
+Nos últimos anos, as grandes abordagens de engenharia com relação ao desenvolvimento de sistemas interativos vêm sendo deixadas de lado em favor de métodos ágeis de desenvolvimento que foram criados para produzir sistemas eficazes, de alta qualidade e adequados ao propósito a que se destinam, mas sem o enorme custo fixo associado ao planejamento e à documentação de um grande projeto de TI. Mas essas metodologias são iterativas, incrementais e evolucionárias, capazes de incorporar facilmente DCH e a participação de usuários e stakeholders em geral ao processo.

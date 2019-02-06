@@ -1,0 +1,391 @@
+[06-Nov-2018 02:18:21] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php on line 5
+[06-Nov-2018 02:18:21] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php on line 5
+[06-Nov-2018 02:18:21] PHP Parse error:  syntax error, unexpected T_STRING in /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php on line 5
+[05-Nov-2018 22:21:40 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Models\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 22:23:40 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Models\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 22:23:58 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Models\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 22:24:57 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Models\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:37:54 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SON\DI\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:37:55 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SON\DI\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:38:25 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'App\Model\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:38:33 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'App\Models\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:39:59 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Models\Registros.php' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:40:35 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Models\registros.php' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:40:36 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Models\registros.php' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:40:38 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Models\registros.php' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:43:54 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:46:21 America/Chicago] PHP Warning:  include(.php): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:46:21 America/Chicago] PHP Warning:  include(.php): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:46:21 America/Chicago] PHP Warning:  include(): Failed opening '.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:46:21 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 22:46:56 America/Chicago] PHP Warning:  include(/App/.php): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:46:56 America/Chicago] PHP Warning:  include(/App/.php): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:46:56 America/Chicago] PHP Warning:  include(): Failed opening '/App/.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:46:56 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 22:46:58 America/Chicago] PHP Warning:  include(/App/.php): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:46:58 America/Chicago] PHP Warning:  include(/App/.php): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:46:58 America/Chicago] PHP Warning:  include(): Failed opening '/App/.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:46:58 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 22:47:20 America/Chicago] PHP Warning:  include(/App/.php): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:47:20 America/Chicago] PHP Warning:  include(/App/.php): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:47:20 America/Chicago] PHP Warning:  include(): Failed opening '/App/.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:47:20 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 22:47:21 America/Chicago] PHP Warning:  include(/App/.php): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:47:21 America/Chicago] PHP Warning:  include(/App/.php): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:47:21 America/Chicago] PHP Warning:  include(): Failed opening '/App/.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:47:21 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 22:48:30 America/Chicago] PHP Warning:  include(../App/.php): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:48:30 America/Chicago] PHP Warning:  include(../App/.php): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:48:30 America/Chicago] PHP Warning:  include(): Failed opening '../App/.php' for inclusion (include_path='.:/opt/php70/lib/php') in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:48:30 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 22:51:16 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SON\DI\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:9
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:51:18 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SON\DI\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:9
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 9
+[05-Nov-2018 22:51:40 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:51:43 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:52:05 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SON\DI\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:52:06 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SON\DI\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:52:19 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SON\DI\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:52:29 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SON\DI\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 22:55:56 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SON\DI\ReflectionClass' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:12
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 12
+[05-Nov-2018 22:56:24 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to SON\DI\Registros::__construct() must be an instance of PDO, string given, called in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 12 and defined in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/registros.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php(12): SON\DI\Registros->__construct('\\SON\\DI\\Registr...')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#2 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#3 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/vendo in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/registros.php on line 11
+[05-Nov-2018 22:56:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method SON\DI\Registros::newInstance() in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:13
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 13
+[05-Nov-2018 22:58:08 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SON\DI\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:12
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 12
+[05-Nov-2018 23:03:26 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:10
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 10
+[05-Nov-2018 23:03:54 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 23:03:57 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 23:04:06 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Models\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 23:04:07 America/Chicago] PHP Fatal error:  Uncaught Error: Class '\App\Models\Registros' not found in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php:11
+Stack trace:
+#0 /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/SubmissaoController.php(32): SON\DI\Container::getClass('Registros')
+#1 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(37): App\Controllers\submissaoController->starter()
+#2 [internal function]: SON\Init\Bootstrap->SON\Init\{closure}(Array, 'home')
+#3 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(40): array_walk(Array, Object(Closure))
+#4 /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/Init/Bootstrap.php(12): SON\Init\Bootstrap->run('/')
+#5 /home/narra025/envioartigos.narrativadaimaginacao.org/public/index.php(5): SON\Init\Bootstrap->__construct()
+#6 {main}
+  thrown in /home/narra025/envioartigos.narrativadaimaginacao.org/vendor/SON/DI/Container.php on line 11
+[05-Nov-2018 23:22:54 America/Chicago] PHP Warning:  filesize(): stat failed for /home/narra025/envioartigos.narrativadaimaginacao.orgApp\Arquivos\lukasj@live.com.css in /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/GerenciaController.php on line 79
+[05-Nov-2018 23:22:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/GerenciaController.php:79) in /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/GerenciaController.php on line 79
+[05-Nov-2018 23:22:54 America/Chicago] PHP Warning:  readfile(/home/narra025/envioartigos.narrativadaimaginacao.orgApp\Arquivos\lukasj@live.com.css): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/GerenciaController.php on line 80
+[05-Nov-2018 23:23:15 America/Chicago] PHP Warning:  filesize(): stat failed for /home/narra025/envioartigos.narrativadaimaginacao.orgApp\Arquivos\lukasj@live.com.css in /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/GerenciaController.php on line 79
+[05-Nov-2018 23:23:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/GerenciaController.php:79) in /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/GerenciaController.php on line 79
+[05-Nov-2018 23:23:15 America/Chicago] PHP Warning:  readfile(/home/narra025/envioartigos.narrativadaimaginacao.orgApp\Arquivos\lukasj@live.com.css): failed to open stream: No such file or directory in /home/narra025/envioartigos.narrativadaimaginacao.org/App/Controllers/GerenciaController.php on line 80
+[05-Nov-2018 23:23:29 America/Chicago] PHP Fatal error:  Cannot declare class App\Models\Registros, because the name is already in use in /home/narra025/envioartigos.narrativadaimaginacao.org/App/Models/registros.php on line 6
+[05-Nov-2018 23:23:37 America/Chicago] PHP Fatal error:  Cannot declare class App\Models\Registros, because the name is already in use in /home/narra025/envioartigos.narrativadaimaginacao.org/App/Models/registros.php on line 6
+[05-Nov-2018 23:23:42 America/Chicago] PHP Fatal error:  Cannot declare class App\Models\Registros, because the name is already in use in /home/narra025/envioartigos.narrativadaimaginacao.org/App/Models/registros.php on line 6
+[05-Nov-2018 23:24:10 America/Chicago] PHP Fatal error:  Cannot declare class App\Models\Registros, because the name is already in use in /home/narra025/envioartigos.narrativadaimaginacao.org/App/Models/registros.php on line 6
+[05-Nov-2018 23:24:33 America/Chicago] PHP Fatal error:  Cannot declare class App\Models\Registros, because the name is already in use in /home/narra025/envioartigos.narrativadaimaginacao.org/App/Models/registros.php on line 6
+[05-Nov-2018 23:24:51 America/Chicago] PHP Fatal error:  Cannot declare class App\Models\Registros, because the name is already in use in /home/narra025/envioartigos.narrativadaimaginacao.org/App/Models/registros.php on line 6
