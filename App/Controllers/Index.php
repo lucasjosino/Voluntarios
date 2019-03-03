@@ -8,14 +8,11 @@ use \App\Models\submissao;
 class Index extends Action {
 
     public function index(){
-        $submissao = \SON\DI\Container::getClass("Submissao");
-        $submissoes = $submissao->fetchAll();
-        $this->view->submissoes = $submissoes;
-        $this->render('submissao');
+        $this->render('home');
     }
 
-    public function empresa(){
-        include '../App/Views/empresa.php';
+    public function cadastroVoluntario(){
+        $this->render('cadastro_voluntario');
     }
 
 }

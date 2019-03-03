@@ -2,6 +2,31 @@ $.noConflict();
 
 jQuery(document).ready(function($) {
 
+	$('#myTable').dataTable({
+        "bJQueryUI": true,
+        "sPaginationType": "full_numbers",
+        "sDom": '<"H"Tlfr>t<"F"ip>',
+        "oLanguage": {
+            "sLengthMenu": "Mostrar _MENU_ registros por página",
+            "sZeroRecords": "Nenhum registro encontrado",
+            "sInfo": "Mostrando _START_ / _END_ de _TOTAL_ registro(s)",
+            "sInfoEmpty": "Mostrando 0 / 0 de 0 registros",
+            "sInfoFiltered": "(filtrado de _MAX_ registros)",
+            "sSearch": "Pesquisar: ",
+            "oPaginate": {
+                "sFirst": "Início",
+                "sPrevious": "Anterior",
+                "sNext": "Próximo",
+                "sLast": "Último"
+            }
+        },
+        "aaSorting": [[0, 'desc']],
+        "aoColumnDefs": [
+            {"sType": "num-html", "aTargets": [0]}
+ 
+        ]
+    }); 
+
 	"use strict";
 
 	[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {

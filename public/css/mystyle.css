@@ -1,3 +1,16 @@
+#sobreModal {
+    width: unset !important;
+}
+
+#loginModal {
+    width: unset !important;
+}
+
+.btn-secondary {
+    background-color: #de5c5d !important;
+}
+
+
 nav {
 	font-weight: 700;
     font-family: Montserrat;
@@ -98,10 +111,6 @@ nav {
 .form-group input[type=file] {
     opacity: unset !important;
     position: relative !important;
-}
-
-.btn, .btn-large, .btn-small {
-    background-color: #5ca2de !important;
 }
 
 .input-group {

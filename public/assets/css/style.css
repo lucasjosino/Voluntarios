@@ -26,6 +26,31 @@ Googel Fonts  */
    text-align: center !important;
 }
 
+.paginate_button .current{
+  border-radius: 15px !important;
+}
+
+.twt-feed {
+  background-color: #96ad72 !important;
+}
+
+.linha {
+  text-align: center;
+  margin-left: 0 !important;
+}
+
+.myform input {
+  border: 1px solid #e2e2e2;
+  text-align: center;
+  font-weight: 650;
+}
+
+.myform select {
+  border: 1px solid #e2e2e2;
+  text-align: center;
+  font-weight: 650;
+}
+
 .table-stats table th, .table-stats table td {
   text-align: center !important;
 }

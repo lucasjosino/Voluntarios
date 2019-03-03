@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use SON\Controller\Action;
 use App\Models\submissao;
+use App\Models\usuario;
 
 class gerenciaController extends Action {
 
@@ -11,9 +12,65 @@ class gerenciaController extends Action {
     public function starter() {
         $submissao = \SON\DI\Container::getClass("Submissao");
         $listUser = $submissao->fetchAllMultiple();
-        $this->view->listUser = $listUser;
-        $this->render('gerencia');
+        //$this->view->listUser = $listUser;
+        //$this->render('gerencia');
+        $this->render('dashboard');
     }
+
+    public function voluntario() {
+        $this->render('voluntario');
+    }
+
+    public function cadastroProjeto() {
+        $this->render('cadastro_projeto');
+    }
+
+     public function listprojetosativos() {
+        $this->render('list_projetos');
+    }
+
+    public function listprojetoscongelados() {
+        $this->render('list_projetos');
+    }
+
+    public function congelarv() {
+        $usuario = \SON\DI\Container::getClass("usuario");
+        $usuario->congelar($_GET['q']);
+        $this->view->voluntario = ($usuario->find($_GET["q"])[0]);
+        $this->render('voluntario');
+    }
+
+    public function descongelarv() {
+        $usuario = \SON\DI\Container::getClass("usuario");
+        $usuario->descongelar($_GET['q']);
+        $this->view->voluntario = ($usuario->find($_GET["q"])[0]);
+        $this->render('voluntario');
+    }
+
+    public function getvoluntario() {
+        $usuario = \SON\DI\Container::getClass("usuario");
+        $this->view->voluntario = ($usuario->find($_GET["q"])[0]);
+        $this->render('voluntario');
+    }
+    // inicia a página
+    public function projeto() {
+        $this->render('projeto');
+    }
+
+    // inicia a página
+    public function gerenciaProjeto() {
+        $this->render('gerencia_projetos');
+    }
+
+    // inicia a página
+    public function starterUser() {
+        $submissao = \SON\DI\Container::getClass("Submissao");
+        $listUser = $submissao->fetchAllMultiple();
+        //$this->view->listUser = $listUser;
+        //$this->render('gerencia');
+        $this->render('dashboard_user');
+    }
+
     // inicia a página
     public function tradeSub() {
         $registros = \SON\DI\Container::getClass("Registros");
@@ -38,20 +95,30 @@ class gerenciaController extends Action {
 
     // faz o login no sistema
     public function login(){
-        $usuario = $_POST['user'];
+        $user = $_POST['user'];
         $senha = $_POST['pass'];
         // faz a instancia da classe especificada pelo nome
-        $admins = \SON\DI\Container::getClass("Admins");
+        $usuario = \SON\DI\Container::getClass("Usuario");
         // testa o login do usuario
-        if ($admins->findRows($usuario,$senha) > 0)
+        if ($usuario->findRowsLogin($user,$senha) > 0)
         {
-            $_SESSION['usuario'] = $usuario;
-            header("Location:gerencia");
+            echo $usuario->findNivel($user);
+            if ($usuario->findNivel($user) != 0)
+            {
+                $_SESSION['usuario'] = $user;
+                header("Location:dashboard");
+            }
+            else
+            {
+                $_SESSION['usuario'] = $user;
+                header("Location:dashboard_user");
+            }
+                
         }
         else
         {
             echo "<center><b>Os dados do login estão errados!</b></center>";
-           $this->render('submissao');
+           $this->render('home');
            
         }
     }
@@ -59,7 +126,7 @@ class gerenciaController extends Action {
     // faz log-out do sistema
     public function sair(){
         session_destroy();
-        header("Location:submissao");
+        header("Location:/");
         session_start();
     }
 

@@ -1,8 +1,116 @@
-    <?php require_once('dashboard_components/head.php'); ?>
-<body>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ela Admin - HTML5 Admin Template</title>
+    <meta name="description" content="Ela Admin - HTML5 Admin Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- /#left-panel -->
-    <?php require_once('dashboard_components/leftside.php'); ?>
+    <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">
+    <link rel="shortcut icon" href="https://i.imgur.com/QRAUqs9.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.0/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script> -->
+
+</head>
+<body>
+    <!-- Left Panel -->
+
+    <aside id="left-panel" class="left-panel">
+        <nav class="navbar navbar-expand-sm navbar-default">
+
+            <div id="main-menu" class="main-menu collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html"><i class="menu-icon fa fa-laptop"></i>Dashboard </a>
+                    </li>
+                    <li class="menu-title">UI elements</li><!-- /.menu-title -->
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-cogs"></i>Components</a>
+                        <ul class="sub-menu children dropdown-menu">                            <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">Buttons</a></li>
+                            <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">Badges</a></li>
+                            <li><i class="fa fa-bars"></i><a href="ui-tabs.html">Tabs</a></li>
+
+                            <li><i class="fa fa-id-card-o"></i><a href="ui-cards.html">Cards</a></li>
+                            <li><i class="fa fa-exclamation-triangle"></i><a href="ui-alerts.html">Alerts</a></li>
+                            <li><i class="fa fa-spinner"></i><a href="ui-progressbar.html">Progress Bars</a></li>
+                            <li><i class="fa fa-fire"></i><a href="ui-modals.html">Modals</a></li>
+                            <li><i class="fa fa-book"></i><a href="ui-switches.html">Switches</a></li>
+                            <li><i class="fa fa-th"></i><a href="ui-grids.html">Grids</a></li>
+                            <li><i class="fa fa-file-word-o"></i><a href="ui-typgraphy.html">Typography</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children active dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Tables</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="fa fa-table"></i><a href="tables-basic.html">Basic Table</a></li>
+                            <li><i class="fa fa-table"></i><a href="tables-data.html">Data Table</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Forms</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-th"></i><a href="forms-basic.html">Basic Form</a></li>
+                            <li><i class="menu-icon fa fa-th"></i><a href="forms-advanced.html">Advanced Form</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-title">Icons</li><!-- /.menu-title -->
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>Icons</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-fort-awesome"></i><a href="font-fontawesome.html">Font Awesome</a></li>
+                            <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">Themefy Icons</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="widgets.html"> <i class="menu-icon ti-email"></i>Widgets </a>
+                    </li>
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>Charts</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-line-chart"></i><a href="charts-chartjs.html">Chart JS</a></li>
+                            <li><i class="menu-icon fa fa-area-chart"></i><a href="charts-flot.html">Flot Chart</a></li>
+                            <li><i class="menu-icon fa fa-pie-chart"></i><a href="charts-peity.html">Peity Chart</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-area-chart"></i>Maps</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-map-o"></i><a href="maps-gmap.html">Google Maps</a></li>
+                            <li><i class="menu-icon fa fa-street-view"></i><a href="maps-vector.html">Vector Maps</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-title">Extras</li><!-- /.menu-title -->
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-glass"></i>Pages</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="page-login.html">Login</a></li>
+                            <li><i class="menu-icon fa fa-sign-in"></i><a href="page-register.html">Register</a></li>
+                            <li><i class="menu-icon fa fa-paper-plane"></i><a href="pages-forget.html">Forget Pass</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+    </aside><!-- /#left-panel -->
+
+    <!-- Left Panel -->
 
     <!-- Right Panel -->
 
@@ -118,41 +226,35 @@
                 <div class="row">
                         <div class="col-md-12">
                                 <section class="card">
-                                    <div class="twt-feed blue-bg">
+                                    <div class="twt-feed green-bg">
                                         <div class="corner-ribon black-ribon">
-                                            <a href="#">
-                                                    <i class="fas fa-thumbs-up"></i>
-                                                    Avaliar
-                                            </a>
-                                            <br>
-                                            <a href="#">
-                                                    <i class="fa fa-plus"></i>
-                                                    Adicionar a um Projeto
-                                            </a>
-                                            <br>
                                             <a href="#">
                                                     <i class="fas fa-user-edit"></i>
                                                     Editar Dados
                                             </a>
                                             <br>
-                                            <?php 
-                                                if ($this->view->voluntario->congelado == 1)
-                                                {
-                                                        echo '<a href="/descongelarv?q=';
-                                                        echo $_GET["q"].'"><i class="far fa-snowflake"></i> Descongelar</a>';
-                                                }
-                                                else
-                                                        echo '<a href="#" data-toggle="modal" data-target="#congelar"><i class="far fa-snowflake"></i> Congelar</a>'; ?>
+                                            <a href="#">
+                                            <i class="far fa-snowflake"></i>
+                                                    Congelar
+                                            </a>
+                                            <br>
+                                            <a href="#">
+                                            <i class="fas fa-users"></i>
+                                                    Membros
                                             </a>
                                             
                                         </div>
         
                                         <div class="media">
+                                            
                                             <div class="media-body">
-                                                <p class="text-light">Voluntário</p>
-                                                <h2 class="text-white display-6"><?php echo ($this->view->voluntario->nome) ?></h2>
+                                                <h2 class="text-white display-6">Horta Comunitária</h2>
+                                                <p class="text-light">lucas Josino</p>
                                             </div>
-                                        </div>           
+                                        </div>
+        
+        
+        
                                     </div>
                                     <div class="weather-category twt-category">
                                         <ul>
@@ -173,81 +275,23 @@
                                     <div class="default-tab">
                                         <nav>
                                             <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
-                                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Dados Básicos</a>
-                                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Disponibilidade</a>
-                                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Conhecimento</a>
+                                                <a class="nav-item nav-link active" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Interesses</a>
                                             </div>
                                         </nav>
-                                        <div class="tab-content pl-3 pt-2" id="nav-tabContent">
-                                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                                                <div class="row" style="text-align: center; padding-top: 15px; padding-bottom: 15px;">
-                                                    <div class="col-md-6">
-                                                        <h4>Email:</h4> <?php echo ($this->view->voluntario->email) ?>
-                                                        <h4>CPF:</h4> <?php echo ($this->view->voluntario->cpf) ?>
-                                                        <h4>RG:</h4> <?php echo ($this->view->voluntario->rg) ?>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <h4>WhatsApp:</h4> <?php echo ($this->view->voluntario->whatsapp) ?>
-                                                        <h4>Telefone:</h4> <?php echo ($this->view->voluntario->telefone) ?>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                        <div class="tab-content pl-2 pt-2" id="nav-tabContent">
+                                            <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                                                     <div class="row" style="text-align: center; padding-top: 15px; padding-bottom: 15px;">
                                                             <div class="col-md-6">
-                                                                <h4>Estado:</h4> <?php echo ($this->view->voluntario->estado) ?>
-                                                                <h4>Endereço:</h4> <?php echo ($this->view->voluntario->endereco) ?>
+                                                                    <h4>Disponibilidade de Horas Semanais:</h4> 5 horas  
                                                             </div>
                                                             <div class="col-md-6">
-                                                                    <h4>Cidade:</h4> <?php echo ($this->view->voluntario->cidade) ?>
-                                                                    <h4>Complemento:</h4> <?php echo ($this->view->voluntario->complemento) ?>
-                                                                </div>
-                                                                <br>
-                                                            <div class="col-md-12">
-                                                                    <h4>Disponibilidade de Horas Semanais:</h4> <?php echo ($this->view->voluntario->horas) ?>
-                                                                </div>
-                                                    </div>
-                                            </div>
-                                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                                                    <div class="row" style="text-align: center; padding-top: 15px; padding-bottom: 15px;">
-                                                            <div class="col-md-6">
-                                                                <h4>Formação:</h4> <?php echo ($this->view->voluntario->formacao) ?>
+                                                                    <h4>Formação:</h4> Ensino Superior 
                                                             </div>
-                                                            <div class="col-md-6">
-                                                                <h4>Lattes:</h4> <?php echo ($this->view->voluntario->lattes) ?>
-                                                                </div>
-                                                                <br>
-                                                            <div class="col-md-12">
-                                                                    <h4>Observações:</h4> <?php echo ($this->view->voluntario->obs) ?>
-                                                                </div>
                                                     </div>
                                             </div>
                                         </div>
 
                                     </div>
-                                    <footer class="twt-footer">
-                                        <div style="font-size: 12px;
-                                        font-weight: 700;
-                                        text-transform: uppercase;
-                                        border-bottom:   1px solid #dee2e6;
-                                        ">
-                                            <i class="ti-bookmark-alt"></i>
-                                            Documentos
-                                        </div>
-                                        <div class="row" style="text-align: center; padding-top: 15px; padding-bottom: 15px;">
-                                            <div class="col-md-6">
-                                                <a href="#"><h5>Comprovante de Residência <i class="ti-import"></i></h5></a>
-                                                <a href="#"><h5>Curriculo <i class="ti-import"></i></h5></a>
-                                                <a href="#"><h5>RG <i class="ti-import"></i></h5></a>
-                                                
-                                            </div>
-                                            <div class="col-md-6">
-                                                <a href="#"><h5>CPF (opcional) <i class="ti-import"></i></h5></a>
-                                                <a href="#"><h5>Contrato <i class="ti-import"></i></h5></a>
-                                                <a href="#"><h5>Certificados <i class="ti-import"></i></h5></a>
-                                            </div>
-                                        </div>
-                                    </footer>
                                 </section>
                             </div>
 
@@ -270,31 +314,6 @@
         </div>
     </div>
 </footer>
-
-
-<!-- modals -->
-<div class="modal fade bd-example-modal-sm" id="congelar" tabindex="-1" role="dialog" aria-labelledby="congelar" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-          Você quer mesmo congelar esse voluntário?
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-secondary"  href="/congelarv?q=<?php echo $_GET["q"]?>">Congelar</a>
-        <button type="button" data-dismiss="modal" class="btn btn-primary">Sair</button>
-      </div>
-    </div>
-  </div>
-    </div>
-  </div>
-</div>
-
-
 
 </div><!-- /#right-panel -->
 
